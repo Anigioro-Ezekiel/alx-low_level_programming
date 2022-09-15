@@ -2,15 +2,15 @@
 
 /**
  * _isupper(int c); - a function that checks for uppercase character.
- * @c: variable(alphabet)
- * Return: 1 if TRUE, 0 if FALSE
+ * @c: carrier integer variable
+ * Return: 1 if true, 0 if false
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 65 && c<=90)
 	{
-		Return(1);
+		return(1);
 	}
-	Return(0);
+	return(0);
 }
