@@ -5,7 +5,6 @@
  * @c: carrier integer variable
  * Return: 1 if true, 0 if false
  */
-
 int _isupper(int c)
 {
 	char uppercase ='A';
