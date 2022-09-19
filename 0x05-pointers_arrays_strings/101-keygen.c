@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - generates random valid passwords
- * Return: 0
+ * main - generates random passwords for 101-crackme
+ * Return: zero
  */
 int main(void)
 {
@@ -21,4 +21,3 @@ int main(void)
 	putchar(2772 - sum);
 	return (0);
 }
-
